@@ -20,19 +20,20 @@
     <br>
 </p>
 
+> **⚠️ Prototype Disclaimer**: This project is a **prototype** developed for an academic assignment. It is designed to demonstrate the capabilities of multi-agent systems in research automation but is **not a full-fledged production system**. It may have limitations in error handling, scalability, and edge-case coverage.
+
 ## 📝 Table of Contents
 
 - [About](#about)
 - [Features](#features)
+- [Documentation](#documentation)
 - [Repository Structure](#structure)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [Authors](#authors)
 
-## 🧐 About <a name = "about"></a>
-
-The **Research Copilot Bot** is an advanced AI-driven tool designed to assist researchers in the field of software engineering. Built upon the **MOYA Framework**, it orchestrates multiple specialized agents to automate the tedious parts of literature review.
+## 🧐 About <a name = "about"></a>The **Research Copilot Bot** is an advanced AI-driven tool designed to assist researchers in the field of software engineering. Built upon the **MOYA Framework**, it orchestrates multiple specialized agents to automate the tedious parts of literature review.
 
 The system leverages state-of-the-art Large Language Models (LLMs) like **OpenAI GPT-4o** and **Google Gemini** to:
 1.  **Search** for relevant academic papers (via Arxiv).
@@ -52,9 +53,19 @@ The system leverages state-of-the-art Large Language Models (LLMs) like **OpenAI
 -   **Claim Verification**: Cross-checks synthesized claims against original documents for accuracy.
 -  **Various Ingestion Methods**: Supports both topic-based searches and direct PDF/DOI/BIB uploads.
 
+## 📚 Documentation <a name = "documentation"></a>
+
+For more detailed information about the system's internals, please refer to the documentation in the `research_copilot_bot/docs/` folder:
+
+-   [**System Architecture**](research_copilot_bot/docs/architecture.md): Overview of the orchestrator, storage, and data flow.
+-   [**Agents & Tools**](research_copilot_bot/docs/agents.md): Details about the specific agents (OpenAI, Gemini) and tools (Arxiv, PDF) used.
+
 ## Screenshots
 
-![alt text](<preview.png>)
+![Preview](<preview.png>)
+
+### Sequence Diagram
+![Sequence Diagram](<sequence_diagram.svg>)
 
 ## 📂 Repository Structure <a name = "structure"></a>
 
