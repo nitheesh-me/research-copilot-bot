@@ -1,0 +1,13 @@
+seed: 12345
+temperature: 0.0
+model_backend: "openai"
+model_name: "gpt-4o-mini"
+embedding_model: "all-MiniLM-L6-v2"
+vector_store: "faiss"
+db_path: "./storage/research.db"
+trace_path: "./trace.jsonl"
+pdf_chunk_size: 1200
+pdf_chunk_stride: 300
+input_papers: "./pdfs"
+seed_topic: "LLM in Software Engineering"
+max_papers: 3

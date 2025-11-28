@@ -1,0 +1,16 @@
+moya-ai
+PyMuPDF
+pdfminer.six
+faiss-cpu
+sentence-transformers
+numpy
+sqlite-utils
+requests
+openai
+pydantic
+pyyaml
+reportlab
+arxiv
+google-generativeai
+gradio==5.49.1
+gradio-client==1.13.3
