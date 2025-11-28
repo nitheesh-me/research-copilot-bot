@@ -1,11 +1,8 @@
-# Assignment 3: Research Copilot Bot (TSE)
+<div align="center">
 
-<p align="center">
-  <a href="" rel="noopener">
- <img width=150px height=150px src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-robot-robotics-flaticons-lineal-color-flat-icons-4.png" alt="Bot logo"></a>
-</p>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Research%20Copilot%20Bot&fontSize=70)
 
-<h3 align="center">Research Copilot Bot</h3>
+</div>
 
 <div align="center">
 
